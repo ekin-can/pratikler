@@ -1,0 +1,35 @@
+        static void Main(string[] args)
+        {
+            int kenar, karealan, karecevre;
+            int kisakenar, uzunkenar , dikalan , dikcevre ;
+            Console.ForegroundColor= ConsoleColor.Blue;
+           
+            Console.WriteLine("*****KARENİN ALAN VE ÇEVRESİNİ BULMA*****");
+            Console.WriteLine();
+            Console.ForegroundColor= ConsoleColor.Cyan;
+            Console.Write("Karenin Kenar Uzunluğunu Giriniz : ");
+            kenar = Convert.ToInt32(Console.ReadLine());
+            karealan = kenar * kenar;
+            karecevre = 4 * kenar;
+            Console.WriteLine("Kare Alan : "+ karealan);
+            Console.WriteLine("Kare Çevre : " +karecevre);
+            Console.WriteLine();
+            Console.ForegroundColor= ConsoleColor.Blue;
+            Console.WriteLine("***** DİKDÖRTGENİN ALAN VE ÇEVRESİNİ BULMA *****");
+            Console.ForegroundColor=ConsoleColor.Cyan;
+            Console.WriteLine();
+            Console.Write("Kısa kenarı girin : ");
+            kisakenar= Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Uzun Kenarı Girin : ");
+            uzunkenar= Convert.ToInt32(Console.ReadLine());
+
+            dikalan = kisakenar * uzunkenar;
+            Console.WriteLine("Dikdörtgenin alanı = "+dikalan);
+            dikcevre = (2 * uzunkenar) + (2 * kisakenar);
+            
+            Console.WriteLine("Dikdörtgenin Çevresi = " + dikcevre);
+
+
+
+        }
