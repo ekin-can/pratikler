@@ -1,0 +1,15 @@
+
+        static void Main(string[] args)
+        {
+            string isim;
+            isim = "Mehmet";
+
+            if (isim=="Mehmet")
+            {
+                Console.WriteLine("Doğru İsim Girişi");
+            }
+            else 
+            {
+                Console.WriteLine("Hatalı İsim");
+            }
+        }
