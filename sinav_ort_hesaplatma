@@ -1,0 +1,23 @@
+        static void Main(string[] args)
+        {
+            int sinav1, sinav2, ortalama;
+            Console.Write("1. Sınav Notu : ");
+            sinav1=Convert.ToInt32(Console.ReadLine());
+            Console.Write("2.Sınav Notu : ");
+            sinav2=Convert.ToInt32(Console.ReadLine());
+            ortalama = (sinav1 + sinav2) / 2;
+            Console.WriteLine("Ortalama : "+ortalama);
+
+
+            if (ortalama>=50)
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("GEÇTİ");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("KALDI");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
