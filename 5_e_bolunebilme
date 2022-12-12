@@ -1,7 +1,7 @@
-static void Main(string[] args)
+        static void Main(string[] args)
         {
             int sayi;
-            Console.WriteLine("Sayıyı Giriniz");
+            Console.Write("Sayıyı Giriniz : ");
             sayi=Convert.ToInt32(Console.ReadLine());
             if (sayi%5 == 0)
             {
