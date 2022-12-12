@@ -1,0 +1,18 @@
+ static void Main(string[] args)
+        {
+            int sayi;
+            Console.Write("Sayıyı Giriniz : ");
+            sayi=Convert.ToInt32(Console.ReadLine());
+
+            if (sayi % 2 ==0 )
+            {
+                Console.ForegroundColor= ConsoleColor.Yellow;  
+                Console.WriteLine("Bu Sayı Çifttir");
+                Console.ForegroundColor=ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Cyan;
+                Console.WriteLine("Bu Sayı Tektir");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
