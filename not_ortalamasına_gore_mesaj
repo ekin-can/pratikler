@@ -1,0 +1,46 @@
+static void Main(string[] args)
+        {
+            int sinav1, sinav2, ortalama , proje;
+            Console.Write("1. Sınav Notunu Giriniz : ");
+            sinav1=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("2.Sınav Notunu Giriniz : ");
+            sinav2=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Proje Notunu Giriniz : ");
+            proje = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            ortalama = (sinav1 + sinav2+ proje) / 3;
+            Console.Write("Ortalama : "+ ortalama);
+            Console.WriteLine();
+            Console.WriteLine();
+            if (ortalama > 0 && ortalama < 30) 
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Durum Kötü");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (ortalama >= 30 && ortalama < 50)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Durum İyi Değil");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (ortalama>= 50 && ortalama<75 )
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("Durum İyi");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (ortalama>=75 && ortalama<90)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Durum Çok İyi");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (ortalama>=90 && ortalama<=100)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Durum Harika");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
