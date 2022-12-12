@@ -1,2 +1,2 @@
 # pratikler
-Staja başladığım ilk günden itibaren yaptığım pratikler
+Ben matematik bölümü son sınıf öğrencisiyim. Okulda programlamaya giriş , sembolik programlama , kodlama gibi dersler alınca yazılım alanına olan ilgim arttı ve bir teknoloji firmasında staja başladım. Burada staja başladığım ilk günden itibaren yaptığım pratikleri paylaşıp ilerlememi kaydetmeyi düşünüyorum. Yazdığım kodların kimseye faydası olacağını düşünmüyorum. Çünkü bunlar alanında yetkin bir yazılımcının kodları değil. Ama üzülmüyorum çünkü oturup düşünmekten bi adım ötedeyim , artık harekete geçtim :)
