@@ -1,0 +1,17 @@
+        static void Main(string[] args)
+        {
+            int sayi1;
+            Console.WriteLine("Lütfen Sayıyı Giriniz");
+            sayi1=Convert.ToInt32(Console.ReadLine());
+            if (sayi1 < 0)
+            {
+                Console.ForegroundColor= ConsoleColor.Cyan;
+                Console.WriteLine("Girilen Sayı Negatif");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Cyan;
+                Console.WriteLine("Girilen Sayı Pozitif");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
