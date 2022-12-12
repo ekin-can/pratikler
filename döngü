@@ -1,0 +1,23 @@
+        static void Main(string[] args)
+        {
+            int sayi1 = 5;
+            int sayi2 = 4;
+            int sayi3 = 25;
+            int sayi4 = 32;
+            int sayi5 = 101;
+            int Toplam = 0;
+            int[] sayi = { sayi1, sayi2, sayi3, sayi4, sayi5 };
+            foreach (var sayilar in sayi)
+            {
+                {
+                    if (sayilar %2!=0)
+                    {
+                       Toplam =Toplam + sayilar;
+                    }
+                }
+                
+                    
+                
+            }
+            Console.WriteLine(Toplam);
+        }
