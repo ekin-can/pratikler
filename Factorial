@@ -1,0 +1,23 @@
+static void Main(string[] args)
+        { 
+            Console.WriteLine("Bir sayı giriniz");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int nFactoriel = faktoriyel(x);
+
+
+            printMesaj(x, nFactoriel);
+        }
+        static int faktoriyel(int n) {
+            int result = 1;
+            for (int i = 0; i < n; i++)
+            {
+                result = result * (n - i);
+            }
+            return result;
+         
+        }
+        static void printMesaj(int n, int result)
+          {
+            Console.WriteLine("Factorial of " + n + " = " + result);
+        
+        }
