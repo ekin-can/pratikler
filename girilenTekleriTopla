@@ -1,0 +1,29 @@
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Beş Sayı Giriniz");
+            //String text = Console.ReadLine();
+            //Console.WriteLine("text 1: " + text);
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            int sayi3 = Convert.ToInt32(Console.ReadLine());
+            int sayi4 = Convert.ToInt32(Console.ReadLine());
+            int sayi5 = Convert.ToInt32(Console.ReadLine());
+            int Toplam = 0;
+            //Console.WriteLine("sayi 1: " + sayi1);
+            
+            int [] sayilar = new int [] { sayi1, sayi2, sayi3, sayi4, sayi5 };
+            foreach (var sayi in sayilar)
+            {
+                if (sayi%2!= 0) ;
+                {
+                    Toplam = sayi +Toplam;
+                }
+            }
+            Console.WriteLine(Toplam);
+
+            
+
+           
+
+        }
