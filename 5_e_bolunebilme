@@ -1,0 +1,17 @@
+static void Main(string[] args)
+        {
+            int sayi;
+            Console.WriteLine("Sayıyı Giriniz");
+            sayi=Convert.ToInt32(Console.ReadLine());
+            if (sayi%5 == 0)
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("Sayı 5'e Tam Bölünür");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("sayı 5'e Tam Bölünmez");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
