@@ -1,0 +1,22 @@
+        static void Main(string[] args)
+        {
+            string isim ;
+            Console.Write("İsminizi Girin : ");
+            isim=Console.ReadLine();
+            
+            if (isim=="mehmet" )
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("Doğru İsim Girişi");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Hatalı İsim Girdiniz!!!");
+                Console.ForegroundColor= ConsoleColor.White;
+            }
+
+
+
+        }
