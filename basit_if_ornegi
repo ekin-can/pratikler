@@ -1,0 +1,16 @@
+        static void Main(string[] args)
+        {
+            string sehir , Ankara ;
+            Console.WriteLine("Türkiye'nin Başkenti Neresidir? ");
+            sehir = Console.ReadLine();
+            Ankara= Console.ReadLine();
+            if ( sehir == "Ankara" )
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("Tebrikler! Doğru Bildiniz");
+            }
+            else 
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Cevabınız Yanlış :'( ");
+            }
