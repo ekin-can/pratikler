@@ -1,0 +1,22 @@
+        static void Main(string[] args)
+        {
+            Console.Write("Küçük Harfler Kullanarak Bir Mevsim Giriniz: ");
+            string mevsim ;
+            mevsim = Console.ReadLine();
+            
+            
+            switch (mevsim)
+            {
+                case "yaz" : Console.WriteLine("Yaz Ayları: Haziran, Temmuz, Ağustos");
+                    break;
+                case "kış" : Console.WriteLine("Kış Ayları: Aralık, Ocak, Şubat");    
+                    break;
+                case "ilkbahar" : Console.WriteLine("İlkbahar Ayları: Mart, Nisan, Mayıs");
+                    break;
+                    case "sonbahar" : Console.WriteLine("Sonbahar Ayları: Eylül, Ekim ,Kasım");   
+                    break;
+                default: Console.WriteLine("Hatalı Mevsim Girişi");
+                    break;  
+                    
+                    
+            }
