@@ -1,0 +1,28 @@
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine("*****MEHMET ALİ'S BOOKSTORE*****");
+            Console.ForegroundColor= ConsoleColor.White;
+            int x;
+            int y;
+            y = 1;
+            Console.Write("Enter The Product Price:");
+            x = Convert.ToInt32(Console.ReadLine());
+            if (0<x && x<=100 )
+            {
+                y = (x - (x * 10/100 ));
+                Console.WriteLine("Discounted Amount: " + y);
+                //%10 discount
+            }
+            else if (x>100 && x<=150) 
+            {
+                y =(x - (x*15/100 ));
+                Console.WriteLine("Discounted Amount: " + y);
+                //%15 discount
+            }
+            else if (x>150 && x<=200)
+            {
+                y =(x - (x* 20/100) );
+                Console.WriteLine("Discounted Amount: " + y);
+                //%20 discount
+            }
