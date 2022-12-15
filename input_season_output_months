@@ -1,0 +1,36 @@
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor= ConsoleColor.Red;
+            string season;
+            Console.WriteLine("Please Enter A Season: ");
+            season = Console.ReadLine();
+            
+
+            if (season=="winter")
+            {
+                Console.ForegroundColor= ConsoleColor.White;
+                Console.WriteLine("Winter Months : December,January,February");
+                Console.ForegroundColor= ConsoleColor.Red;
+            }
+            if (season=="spring")
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("Spring Months : March,April,May");
+                Console.ForegroundColor= ConsoleColor.Red;
+            }
+            if (season=="autm")
+            {
+                Console.ForegroundColor= ConsoleColor.DarkYellow;
+                Console.WriteLine("Autm Months : September,October,November ");
+                Console.ForegroundColor= ConsoleColor.Red;
+            }
+            if (season=="summer")
+            {
+                Console.ForegroundColor= ConsoleColor.Yellow;
+                Console.WriteLine("Summer Months : June,July,August");
+                Console.ForegroundColor= ConsoleColor.Red;
+            }
+            else
+            {
+                Console.WriteLine("You Entered A Wrong Expression");
+            }
