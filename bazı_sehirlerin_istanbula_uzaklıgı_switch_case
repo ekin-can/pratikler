@@ -1,0 +1,32 @@
+        static void Main(string[] args)
+        {
+            string sehir;
+            Console.Write( "Lütfen Şehiri Giriniz: " );
+            sehir= Console.ReadLine();  
+            switch (sehir)
+            {
+                case "adana": Console.WriteLine("İstanbul İlinin Adana'ya Uzaklığı 939 Km'dir");
+                    break;
+                case "ankara": Console.WriteLine("İstanbul İlinin Ankara'ya Uzaklığı 453 Km'dir");
+                    break;
+                case "antalya": Console.WriteLine("İstanbul İlinin Antalya'ya Uzaklığı 724 Km'dir");
+                    break;
+                case "bursa": Console.WriteLine("İstanbul İlinin Bursa'ya Uzaklığı 243 Km'dir");
+                    break;
+                case "elezığ": Console.WriteLine("İstanbul İlinin Elazığ'a Uzaklığı 1212 Km'dir");
+                    break;
+                case "izmir": Console.WriteLine("İstanbul İlinin İzmir'e Uzaklığı 561 Km'dir");
+                    break;
+                case "malatya": Console.WriteLine("İstanbul İlinin Malatya'ya Uzaklığı 1114 Km'dir");
+                    break;
+                case "trabzon": Console.WriteLine("İstanbul İlinin Trabzon'a Uzaklığı 1070 Km'dir");
+                    break;
+                    default: Console.WriteLine("Bu Şehir Hafızada Mevcut Değil");
+                    break;
+
+
+
+
+            }
+
+
