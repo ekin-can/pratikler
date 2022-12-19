@@ -1,0 +1,22 @@
+        static void Main(string[] args)
+        {
+            int[] sayilar = new int[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Sayıyı Girin: ");
+                sayilar[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+            //Array.Sort(sayilar); sayıları küçükten büyüğe sıralar
+            //Array.Reverse (sayilar); sayıları tersten yazar
+            //sayilar.Length dizinin uzunluğunu verir
+            
+            Array.Sort(sayilar);
+            Console.WriteLine("Dizinin En Küçük Elemanı: " + sayilar[0]);
+            Console.WriteLine("Dizinin En Büyük Elemanı: " + sayilar[4]);
+            Console.WriteLine("Dizinin Boyutu: "+ sayilar.Length);
+
+            
+
+        }
